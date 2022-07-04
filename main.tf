@@ -143,7 +143,7 @@ resource "aws_codepipeline" "codepipeline"{
 
         configuration = {
           ConnectionArn    = aws_codestarconnections_connection.tf-pipeline.arn
-          FullRepositoryId = "mconnaker/tf-pipeline"
+          FullRepositoryId = var.repositoryid
           BranchName       = "main"
         }
       }
