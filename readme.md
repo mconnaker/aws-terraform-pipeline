@@ -6,7 +6,7 @@ Creates a CodePipeline to deploy infrastructure on AWS with Terraform. The pipel
 3. *Deploys*: Deploys based on the terraform_apply.yml located in the Github repository. Uses **AWS CodeBuild**
 
 ## Requirements
-- private github repository containing the terraform_plan.yml and terraform_apply.yml. Should be in the root folder (see example folder)
+- private github repository containing the terraform_plan.yml and terraform_apply.yml. Should be in the root folder (see example repo for layout)
 - AWS account
 - Manually connect to Github for Source stage in aws console
 
